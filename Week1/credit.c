@@ -138,7 +138,7 @@ void card_type(long card)
     }
     else if(starts_with(card, 2) >= 51 && starts_with(card, 2) <= 55 && card_length(card) == 16 && luhn(card))
     {
-        printf("MasterCard\n");
+        printf("MASTERCARD\n");
     }
     else if(starts_with(card, 1) ==  4 && (card_length(card) == 13 || card_length(card) == 16) && luhn(card))
     {
